@@ -692,7 +692,7 @@ header .contaner nav ul li a:hover {
   header .contaner nav ul li a {
     padding: 7px 10px;
     display: inline-block;
-    margin: 0 4px;
+    
     color: aliceblue;
     font-size: 13px;
     display: block;
