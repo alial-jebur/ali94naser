@@ -197,9 +197,6 @@ header .contaner nav ul li a:hover {
   color: black;
   background-color:snow;
   font-weight: bolder;
-
-
-
 }
 @media (min-width: 768px) {
   header .contaner nav .fa-solid {
@@ -215,6 +212,11 @@ header .contaner nav ul {
   header .contaner nav ul {
     display: none;
     
+  }
+  header .contaner nav ul li a:hover {
+    color: black;
+    background-color:snow;
+    font-weight: bolder;
   }
 
 
