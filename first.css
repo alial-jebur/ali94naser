@@ -691,17 +691,18 @@ header .contaner nav ul li a:hover {
   }
   header .contaner nav ul li a {
     padding: 8px 12px;
-    margin: 0 5px;
+    display: inline-block;
+    margin: 0 4px;
     color: aliceblue;
-    font-size: 11px;
+    font-size: 15px;
     display: block;
     position: relative;
-    z-index: 5;
+    
     transition: 0.5s;
-    font-weight: 300;
+    font-weight: bold;
     border: 1px solid palevioletred;
     border-radius: 5px;
-    direction: rtl;
+
   }
   
   
