@@ -241,7 +241,7 @@ header .contaner nav ul li a:hover {
 .landing {
   min-height: 100vh;
   position: relative;
-  background-image: url(../photos/uniy\ 1.jpg);
+  background-image: url(uniy\ 1.jpg);
   background-size: cover;
   background-position: center;
 
