@@ -111,7 +111,7 @@ html {
   margin: 0 auto 100px;
   line-height: 2;
   color: aliceblue;
-  max-width: 100%;
+  max-width: 95%;
 
 }
 
@@ -177,6 +177,30 @@ header .contaner nav .fa-solid {
 
 }
 
+
+
+header .contaner nav ul li a {
+  padding: 12px 18px;
+  margin: 0 7px;
+  color: aliceblue;
+  font-size: 18px;
+  display: block;
+  position: relative;
+  z-index: 5;
+  transition: 0.5s;
+  font-weight: bolder;
+  border: 1px solid palevioletred;
+  border-radius: 8px;
+}
+
+header .contaner nav ul li a:hover {
+  color: black;
+  background-color:snow;
+  font-weight: bolder;
+
+
+
+}
 @media (min-width: 768px) {
   header .contaner nav .fa-solid {
     display: none;
@@ -190,51 +214,34 @@ header .contaner nav ul {
 @media (max-width: 767px) {
   header .contaner nav ul {
     display: none;
-    border-bottom: 2px solid white;
+    
   }
 
 
+
   header .contaner nav .fa-solid {
-    margin-right: 15px;
+ 
+    font-size: 30px;
 
   }
 
   header .contaner nav .fa-solid:hover+ul {
     position: absolute;
-    top: 100%;
+    top: 99%;
     left: 0;
-    display: flex;
+    display:flex;
     flex-direction: column;
     width: 100%;
     background-color: #00000079;
+   
+ 
+   
+   
   }
 
   header .contaner nav ul li a {
     padding: 8px 15px !important;
   }
-}
-
-header .contaner nav ul li a {
-  padding: 12px 18px;
-  margin: 0 7px;
-  color: aliceblue;
-  font-size: 18px;
-  display: block;
-  position: relative;
-  z-index: 2;
-  transition: 0.5s;
-  font-weight: bolder;
-  border: 2px solid palevioletred;
-  border-radius: 8px;
-}
-
-header .contaner nav ul li a:hover {
-  color: black;
-  background-color:snow;
-  font-weight: bolder;
-
-
-
 }
 
 /*................... landing/// .............*/
@@ -288,13 +295,13 @@ header .contaner nav ul li a:hover {
 @media (max-width: 767px) {
 
   .landing .contant {
-    width: 90%;
+    width: 95%;
     transform: translateX(-50%);
 
   }
 
   .landing .contant h2 {
-    font-size: 25px;
+    font-size: 20px;
     letter-spacing: 2;
   }
 
@@ -702,8 +709,31 @@ header .contaner nav ul li a:hover {
 
 @media (max-width: 767px) {
   .footer p {
-    font-size: 15px;
+    font-size: 12px;
   }
+  .footer {
+   
+    border-radius: 50px 50px 0 0;
+  
+  }
+  .main-heading h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+  }
+  .main-heading p {
+    width: 85%px;
+    margin: 0 auto 100px;
+    line-height: 2;
+    color: aliceblue;
+    max-width: 95%;
+  
+  }
+  
+  
 }
 
 .footer p span {
