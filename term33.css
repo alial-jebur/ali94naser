@@ -86,7 +86,7 @@ body {
 }
 
 .losn-box .contaner .box a {
-  display: inline-block;
+  display:block;
   border: 2px solid rgb(0, 0, 0);
   font-size: 18px;
   font-weight: bold;
